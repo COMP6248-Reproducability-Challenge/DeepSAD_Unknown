@@ -1,0 +1,45 @@
+2021-05-08 01:22:33,613 - root - INFO - Log file is ./drive/MyDrive/DeepSAD/log/fmnist_param3_0//log.txt
+2021-05-08 01:22:33,614 - root - INFO - Data path is ./drive/MyDrive/DeepSAD/data/
+2021-05-08 01:22:33,614 - root - INFO - Export path is ./drive/MyDrive/DeepSAD/log/fmnist_param3_0/
+2021-05-08 01:22:33,614 - root - INFO - Dataset: fmnist
+2021-05-08 01:22:33,614 - root - INFO - Normal class: 2
+2021-05-08 01:22:33,615 - root - INFO - Ratio of labeled normal train samples: 0.00
+2021-05-08 01:22:33,615 - root - INFO - Ratio of labeled anomalous samples: 0.05
+2021-05-08 01:22:33,615 - root - INFO - Pollution ratio of unlabeled train data: 0.10
+2021-05-08 01:22:33,615 - root - INFO - Number of known anomaly classes: 0
+2021-05-08 01:22:33,615 - root - INFO - Network: mnist_LeNet
+2021-05-08 01:22:33,615 - root - INFO - Eta-parameter: 1.00
+2021-05-08 01:22:33,616 - root - INFO - Set seed to 8.
+2021-05-08 01:22:33,632 - root - INFO - Computation device: cuda
+2021-05-08 01:22:33,632 - root - INFO - Number of threads: 0
+2021-05-08 01:22:33,632 - root - INFO - Number of dataloader workers: 0
+2021-05-08 03:06:17,241 - root - INFO - Log file is ./drive/MyDrive/DeepSAD/log/fmnist_param3_0//log.txt
+2021-05-08 03:06:17,242 - root - INFO - Data path is ./drive/MyDrive/DeepSAD/data/
+2021-05-08 03:06:17,242 - root - INFO - Export path is ./drive/MyDrive/DeepSAD/log/fmnist_param3_0/
+2021-05-08 03:06:17,242 - root - INFO - Dataset: fmnist
+2021-05-08 03:06:17,242 - root - INFO - Normal class: 2
+2021-05-08 03:06:17,242 - root - INFO - Ratio of labeled normal train samples: 0.00
+2021-05-08 03:06:17,242 - root - INFO - Ratio of labeled anomalous samples: 0.05
+2021-05-08 03:06:17,242 - root - INFO - Pollution ratio of unlabeled train data: 0.10
+2021-05-08 03:06:17,242 - root - INFO - Number of known anomaly classes: 0
+2021-05-08 03:06:17,243 - root - INFO - Network: mnist_LeNet
+2021-05-08 03:06:17,243 - root - INFO - Eta-parameter: 1.00
+2021-05-08 03:06:17,244 - root - INFO - Set seed to 8.
+2021-05-08 03:06:17,260 - root - INFO - Computation device: cuda
+2021-05-08 03:06:17,261 - root - INFO - Number of threads: 0
+2021-05-08 03:06:17,261 - root - INFO - Number of dataloader workers: 0
+2021-05-09 01:31:46,396 - root - INFO - Log file is ./drive/MyDrive/DeepSAD/log/fmnist_param3_0//log.txt
+2021-05-09 01:31:46,879 - root - INFO - Data path is ./drive/MyDrive/DeepSAD/data/
+2021-05-09 01:31:46,879 - root - INFO - Export path is ./drive/MyDrive/DeepSAD/log/fmnist_param3_0/
+2021-05-09 01:31:46,879 - root - INFO - Dataset: fmnist
+2021-05-09 01:31:46,880 - root - INFO - Normal class: 2
+2021-05-09 01:31:46,880 - root - INFO - Ratio of labeled normal train samples: 0.00
+2021-05-09 01:31:46,880 - root - INFO - Ratio of labeled anomalous samples: 0.05
+2021-05-09 01:31:46,880 - root - INFO - Pollution ratio of unlabeled train data: 0.10
+2021-05-09 01:31:46,880 - root - INFO - Number of known anomaly classes: 0
+2021-05-09 01:31:46,880 - root - INFO - Network: fmnist_LeNet
+2021-05-09 01:31:46,880 - root - INFO - Eta-parameter: 1.00
+2021-05-09 01:31:46,882 - root - INFO - Set seed to 8.
+2021-05-09 01:31:46,898 - root - INFO - Computation device: cuda
+2021-05-09 01:31:46,898 - root - INFO - Number of threads: 0
+2021-05-09 01:31:46,899 - root - INFO - Number of dataloader workers: 0
