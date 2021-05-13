@@ -1,0 +1,192 @@
+2021-05-12 03:24:48,227 - root - INFO - Log file is ./drive/MyDrive/DeepSAD/log/DeepSAD/2yp/2_0.2//log.txt.
+2021-05-12 03:24:48,228 - root - INFO - Data path is ./drive/MyDrive/DeepSAD/data/.
+2021-05-12 03:24:48,228 - root - INFO - Export path is ./drive/MyDrive/DeepSAD/log/DeepSAD/2yp/2_0.2/.
+2021-05-12 03:24:48,228 - root - INFO - Dataset: mnist
+2021-05-12 03:24:48,228 - root - INFO - Normal class: 2
+2021-05-12 03:24:48,228 - root - INFO - Ratio of labeled normal train samples: 0.00
+2021-05-12 03:24:48,228 - root - INFO - Ratio of labeled anomalous samples: 0.05
+2021-05-12 03:24:48,229 - root - INFO - Pollution ratio of unlabeled train data: 0.20
+2021-05-12 03:24:48,229 - root - INFO - Known anomaly class: 1
+2021-05-12 03:24:48,229 - root - INFO - Number of base estimators in the ensemble: 100
+2021-05-12 03:24:48,229 - root - INFO - Number of samples for training each base estimator: 256
+2021-05-12 03:24:48,229 - root - INFO - Contamination parameter: 0.10
+2021-05-12 03:24:48,229 - root - INFO - Number of jobs for model training: -1
+2021-05-12 03:24:48,229 - root - INFO - Hybrid model: False
+2021-05-12 03:24:48,231 - root - INFO - Set seed to 5.
+2021-05-12 03:24:48,250 - root - INFO - Computation device: cuda:0
+2021-05-12 03:24:48,250 - root - INFO - Number of dataloader workers: 0
+2021-05-12 03:24:51,144 - root - INFO - Starting training...
+2021-05-12 03:24:56,512 - root - INFO - Training Time: 5.368s
+2021-05-12 03:24:56,513 - root - INFO - Finished training.
+2021-05-12 03:24:57,140 - root - INFO - Starting testing...
+2021-05-12 03:24:58,727 - root - INFO - Test AUC: 60.61%
+2021-05-12 03:24:58,728 - root - INFO - Test Time: 1.579s
+2021-05-12 03:24:58,728 - root - INFO - Finished testing.
+2021-05-12 03:24:59,711 - root - INFO - Starting training...
+2021-05-12 03:25:05,096 - root - INFO - Training Time: 5.384s
+2021-05-12 03:25:05,096 - root - INFO - Finished training.
+2021-05-12 03:25:05,716 - root - INFO - Starting testing...
+2021-05-12 03:25:07,313 - root - INFO - Test AUC: 63.50%
+2021-05-12 03:25:07,313 - root - INFO - Test Time: 1.589s
+2021-05-12 03:25:07,313 - root - INFO - Finished testing.
+2021-05-12 03:25:08,354 - root - INFO - Starting training...
+2021-05-12 03:25:13,779 - root - INFO - Training Time: 5.424s
+2021-05-12 03:25:13,779 - root - INFO - Finished training.
+2021-05-12 03:25:14,408 - root - INFO - Starting testing...
+2021-05-12 03:25:15,988 - root - INFO - Test AUC: 63.40%
+2021-05-12 03:25:15,988 - root - INFO - Test Time: 1.572s
+2021-05-12 03:25:15,989 - root - INFO - Finished testing.
+2021-05-12 03:25:16,974 - root - INFO - Starting training...
+2021-05-12 03:25:22,283 - root - INFO - Training Time: 5.308s
+2021-05-12 03:25:22,283 - root - INFO - Finished training.
+2021-05-12 03:25:22,904 - root - INFO - Starting testing...
+2021-05-12 03:25:24,521 - root - INFO - Test AUC: 60.45%
+2021-05-12 03:25:24,522 - root - INFO - Test Time: 1.610s
+2021-05-12 03:25:24,522 - root - INFO - Finished testing.
+2021-05-12 03:25:25,530 - root - INFO - Starting training...
+2021-05-12 03:25:30,933 - root - INFO - Training Time: 5.403s
+2021-05-12 03:25:30,934 - root - INFO - Finished training.
+2021-05-12 03:25:31,562 - root - INFO - Starting testing...
+2021-05-12 03:25:33,183 - root - INFO - Test AUC: 62.92%
+2021-05-12 03:25:33,183 - root - INFO - Test Time: 1.570s
+2021-05-12 03:25:33,183 - root - INFO - Finished testing.
+2021-05-12 03:25:34,202 - root - INFO - Starting training...
+2021-05-12 03:25:39,690 - root - INFO - Training Time: 5.487s
+2021-05-12 03:25:39,690 - root - INFO - Finished training.
+2021-05-12 03:25:40,343 - root - INFO - Starting testing...
+2021-05-12 03:25:41,960 - root - INFO - Test AUC: 62.21%
+2021-05-12 03:25:41,960 - root - INFO - Test Time: 1.608s
+2021-05-12 03:25:41,960 - root - INFO - Finished testing.
+2021-05-12 03:25:42,929 - root - INFO - Starting training...
+2021-05-12 03:25:48,322 - root - INFO - Training Time: 5.393s
+2021-05-12 03:25:48,323 - root - INFO - Finished training.
+2021-05-12 03:25:48,958 - root - INFO - Starting testing...
+2021-05-12 03:25:50,563 - root - INFO - Test AUC: 60.62%
+2021-05-12 03:25:50,564 - root - INFO - Test Time: 1.598s
+2021-05-12 03:25:50,564 - root - INFO - Finished testing.
+2021-05-12 03:25:51,637 - root - INFO - Starting training...
+2021-05-12 03:25:57,023 - root - INFO - Training Time: 5.386s
+2021-05-12 03:25:57,024 - root - INFO - Finished training.
+2021-05-12 03:25:57,657 - root - INFO - Starting testing...
+2021-05-12 03:25:59,258 - root - INFO - Test AUC: 63.65%
+2021-05-12 03:25:59,262 - root - INFO - Test Time: 1.591s
+2021-05-12 03:25:59,262 - root - INFO - Finished testing.
+2021-05-12 03:26:00,264 - root - INFO - Starting training...
+2021-05-12 03:26:05,682 - root - INFO - Training Time: 5.417s
+2021-05-12 03:26:05,683 - root - INFO - Finished training.
+2021-05-12 03:26:06,322 - root - INFO - Starting testing...
+2021-05-12 03:26:07,978 - root - INFO - Test AUC: 60.08%
+2021-05-12 03:26:07,978 - root - INFO - Test Time: 1.648s
+2021-05-12 03:26:07,978 - root - INFO - Finished testing.
+2021-05-12 03:26:08,970 - root - INFO - Starting training...
+2021-05-12 03:26:14,284 - root - INFO - Training Time: 5.313s
+2021-05-12 03:26:14,284 - root - INFO - Finished training.
+2021-05-12 03:26:14,925 - root - INFO - Starting testing...
+2021-05-12 03:26:16,571 - root - INFO - Test AUC: 62.32%
+2021-05-12 03:26:16,572 - root - INFO - Test Time: 1.637s
+2021-05-12 03:26:16,572 - root - INFO - Finished testing.
+2021-05-12 03:26:17,652 - root - INFO - Starting training...
+2021-05-12 03:26:22,938 - root - INFO - Training Time: 5.286s
+2021-05-12 03:26:22,939 - root - INFO - Finished training.
+2021-05-12 03:26:23,577 - root - INFO - Starting testing...
+2021-05-12 03:26:25,182 - root - INFO - Test AUC: 61.15%
+2021-05-12 03:26:25,182 - root - INFO - Test Time: 1.598s
+2021-05-12 03:26:25,183 - root - INFO - Finished testing.
+2021-05-12 03:26:26,165 - root - INFO - Starting training...
+2021-05-12 03:26:31,474 - root - INFO - Training Time: 5.309s
+2021-05-12 03:26:31,474 - root - INFO - Finished training.
+2021-05-12 03:26:32,103 - root - INFO - Starting testing...
+2021-05-12 03:26:33,698 - root - INFO - Test AUC: 61.01%
+2021-05-12 03:26:33,698 - root - INFO - Test Time: 1.586s
+2021-05-12 03:26:33,699 - root - INFO - Finished testing.
+2021-05-12 03:26:34,787 - root - INFO - Starting training...
+2021-05-12 03:26:40,278 - root - INFO - Training Time: 5.491s
+2021-05-12 03:26:40,278 - root - INFO - Finished training.
+2021-05-12 03:26:40,903 - root - INFO - Starting testing...
+2021-05-12 03:26:42,533 - root - INFO - Test AUC: 62.97%
+2021-05-12 03:26:42,533 - root - INFO - Test Time: 1.580s
+2021-05-12 03:26:42,533 - root - INFO - Finished testing.
+2021-05-12 03:26:43,518 - root - INFO - Starting training...
+2021-05-12 03:26:48,920 - root - INFO - Training Time: 5.402s
+2021-05-12 03:26:48,920 - root - INFO - Finished training.
+2021-05-12 03:26:49,552 - root - INFO - Starting testing...
+2021-05-12 03:26:51,162 - root - INFO - Test AUC: 61.16%
+2021-05-12 03:26:51,164 - root - INFO - Test Time: 1.602s
+2021-05-12 03:26:51,164 - root - INFO - Finished testing.
+2021-05-12 03:26:52,172 - root - INFO - Starting training...
+2021-05-12 03:26:57,586 - root - INFO - Training Time: 5.413s
+2021-05-12 03:26:57,586 - root - INFO - Finished training.
+2021-05-12 03:26:58,211 - root - INFO - Starting testing...
+2021-05-12 03:26:59,812 - root - INFO - Test AUC: 62.68%
+2021-05-12 03:26:59,812 - root - INFO - Test Time: 1.594s
+2021-05-12 03:26:59,812 - root - INFO - Finished testing.
+2021-05-12 03:27:00,815 - root - INFO - Starting training...
+2021-05-12 03:27:06,227 - root - INFO - Training Time: 5.411s
+2021-05-12 03:27:06,227 - root - INFO - Finished training.
+2021-05-12 03:27:06,853 - root - INFO - Starting testing...
+2021-05-12 03:27:08,608 - root - INFO - Test AUC: 61.22%
+2021-05-12 03:27:08,608 - root - INFO - Test Time: 1.706s
+2021-05-12 03:27:08,608 - root - INFO - Finished testing.
+2021-05-12 03:27:09,590 - root - INFO - Starting training...
+2021-05-12 03:27:14,889 - root - INFO - Training Time: 5.298s
+2021-05-12 03:27:14,889 - root - INFO - Finished training.
+2021-05-12 03:27:15,524 - root - INFO - Starting testing...
+2021-05-12 03:27:17,108 - root - INFO - Test AUC: 63.72%
+2021-05-12 03:27:17,108 - root - INFO - Test Time: 1.576s
+2021-05-12 03:27:17,108 - root - INFO - Finished testing.
+2021-05-12 03:27:18,105 - root - INFO - Starting training...
+2021-05-12 03:27:23,527 - root - INFO - Training Time: 5.421s
+2021-05-12 03:27:23,527 - root - INFO - Finished training.
+2021-05-12 03:27:24,158 - root - INFO - Starting testing...
+2021-05-12 03:27:25,792 - root - INFO - Test AUC: 60.75%
+2021-05-12 03:27:25,793 - root - INFO - Test Time: 1.626s
+2021-05-12 03:27:25,793 - root - INFO - Finished testing.
+2021-05-12 03:27:26,790 - root - INFO - Starting training...
+2021-05-12 03:27:32,182 - root - INFO - Training Time: 5.391s
+2021-05-12 03:27:32,182 - root - INFO - Finished training.
+2021-05-12 03:27:32,845 - root - INFO - Starting testing...
+2021-05-12 03:27:34,496 - root - INFO - Test AUC: 59.37%
+2021-05-12 03:27:34,497 - root - INFO - Test Time: 1.643s
+2021-05-12 03:27:34,497 - root - INFO - Finished testing.
+2021-05-12 03:27:35,545 - root - INFO - Starting training...
+2021-05-12 03:27:40,987 - root - INFO - Training Time: 5.442s
+2021-05-12 03:27:40,988 - root - INFO - Finished training.
+2021-05-12 03:27:41,651 - root - INFO - Starting testing...
+2021-05-12 03:27:43,262 - root - INFO - Test AUC: 63.20%
+2021-05-12 03:27:43,263 - root - INFO - Test Time: 1.603s
+2021-05-12 03:27:43,263 - root - INFO - Finished testing.
+2021-05-12 03:27:44,243 - root - INFO - Starting training...
+2021-05-12 03:27:49,572 - root - INFO - Training Time: 5.329s
+2021-05-12 03:27:49,572 - root - INFO - Finished training.
+2021-05-12 03:27:50,213 - root - INFO - Starting testing...
+2021-05-12 03:27:51,871 - root - INFO - Test AUC: 60.67%
+2021-05-12 03:27:51,871 - root - INFO - Test Time: 1.610s
+2021-05-12 03:27:51,871 - root - INFO - Finished testing.
+2021-05-12 03:27:52,868 - root - INFO - Starting training...
+2021-05-12 03:27:58,262 - root - INFO - Training Time: 5.394s
+2021-05-12 03:27:58,263 - root - INFO - Finished training.
+2021-05-12 03:27:58,917 - root - INFO - Starting testing...
+2021-05-12 03:28:00,541 - root - INFO - Test AUC: 63.03%
+2021-05-12 03:28:00,541 - root - INFO - Test Time: 1.613s
+2021-05-12 03:28:00,541 - root - INFO - Finished testing.
+2021-05-12 03:28:01,537 - root - INFO - Starting training...
+2021-05-12 03:28:06,839 - root - INFO - Training Time: 5.302s
+2021-05-12 03:28:06,840 - root - INFO - Finished training.
+2021-05-12 03:28:07,467 - root - INFO - Starting testing...
+2021-05-12 03:28:09,081 - root - INFO - Test AUC: 61.01%
+2021-05-12 03:28:09,082 - root - INFO - Test Time: 1.607s
+2021-05-12 03:28:09,082 - root - INFO - Finished testing.
+2021-05-12 03:28:10,083 - root - INFO - Starting training...
+2021-05-12 03:28:15,531 - root - INFO - Training Time: 5.448s
+2021-05-12 03:28:15,532 - root - INFO - Finished training.
+2021-05-12 03:28:16,162 - root - INFO - Starting testing...
+2021-05-12 03:28:17,794 - root - INFO - Test AUC: 61.84%
+2021-05-12 03:28:17,794 - root - INFO - Test Time: 1.583s
+2021-05-12 03:28:17,795 - root - INFO - Finished testing.
+2021-05-12 03:28:18,772 - root - INFO - Starting training...
+2021-05-12 03:28:24,170 - root - INFO - Training Time: 5.398s
+2021-05-12 03:28:24,170 - root - INFO - Finished training.
+2021-05-12 03:28:24,809 - root - INFO - Starting testing...
+2021-05-12 03:28:26,403 - root - INFO - Test AUC: 61.18%
+2021-05-12 03:28:26,403 - root - INFO - Test Time: 1.586s
+2021-05-12 03:28:26,403 - root - INFO - Finished testing.

@@ -1,0 +1,465 @@
+2021-05-12 11:13:22,391 - root - INFO - Log file is ./drive/MyDrive/DeepSAD/log/DeepSAD/2yl/2_0.0//log.txt.
+2021-05-12 11:13:22,392 - root - INFO - Data path is ./drive/MyDrive/DeepSAD/data/.
+2021-05-12 11:13:22,392 - root - INFO - Export path is ./drive/MyDrive/DeepSAD/log/DeepSAD/2yl/2_0.0/.
+2021-05-12 11:13:22,392 - root - INFO - Dataset: mnist
+2021-05-12 11:13:22,392 - root - INFO - Normal class: 2
+2021-05-12 11:13:22,393 - root - INFO - Ratio of labeled normal train samples: 0.00
+2021-05-12 11:13:22,393 - root - INFO - Ratio of labeled anomalous samples: 0.00
+2021-05-12 11:13:22,393 - root - INFO - Pollution ratio of unlabeled train data: 0.00
+2021-05-12 11:13:22,393 - root - INFO - Known anomaly class: 1
+2021-05-12 11:13:22,393 - root - INFO - SSAD kernel: rbf
+2021-05-12 11:13:22,393 - root - INFO - Kappa-paramerter: 1.00
+2021-05-12 11:13:22,393 - root - INFO - Hybrid model: False
+2021-05-12 11:13:22,414 - root - INFO - Set seed to 5.
+2021-05-12 11:13:22,467 - root - INFO - Computation device: cuda:0
+2021-05-12 11:13:22,468 - root - INFO - Number of dataloader workers: 0
+2021-05-12 11:13:35,713 - root - INFO - Starting training...
+2021-05-12 11:14:17,139 - root - INFO -   | Model 01/10 | Gamma: 0.00781250 | Train Time: 38.185s | Val AUC: 84.94 |
+2021-05-12 11:14:54,913 - root - INFO -   | Model 02/10 | Gamma: 0.01562500 | Train Time: 35.199s | Val AUC: 87.17 |
+2021-05-12 11:15:28,544 - root - INFO -   | Model 03/10 | Gamma: 0.03125000 | Train Time: 31.008s | Val AUC: 89.19 |
+2021-05-12 11:15:58,849 - root - INFO -   | Model 04/10 | Gamma: 0.06250000 | Train Time: 27.280s | Val AUC: 90.94 |
+2021-05-12 11:16:21,136 - root - INFO -   | Model 05/10 | Gamma: 0.12500000 | Train Time: 19.190s | Val AUC: 91.16 |
+2021-05-12 11:16:39,730 - root - INFO -   | Model 06/10 | Gamma: 0.25000000 | Train Time: 15.548s | Val AUC: 91.92 |
+2021-05-12 11:16:58,182 - root - INFO -   | Model 07/10 | Gamma: 0.50000000 | Train Time: 15.333s | Val AUC: 92.66 |
+2021-05-12 11:17:17,526 - root - INFO -   | Model 08/10 | Gamma: 1.00000000 | Train Time: 15.578s | Val AUC: 88.44 |
+2021-05-12 11:18:03,345 - root - INFO -   | Model 09/10 | Gamma: 2.00000000 | Train Time: 42.724s | Val AUC: 56.26 |
+2021-05-12 11:18:22,052 - root - INFO -   | Model 10/10 | Gamma: 4.00000000 | Train Time: 15.607s | Val AUC: 50.00 |
+2021-05-12 11:18:22,057 - root - INFO - Best Model: | Gamma: 0.50000000 | AUC: 92.66
+2021-05-12 11:18:22,058 - root - INFO - Training Time: 15.333s
+2021-05-12 11:18:22,058 - root - INFO - Finished training.
+2021-05-12 11:18:22,703 - root - INFO - Starting testing...
+2021-05-12 11:18:27,951 - root - INFO - Test AUC: 92.59%
+2021-05-12 11:18:27,951 - root - INFO - Test Time: 5.235s
+2021-05-12 11:18:27,951 - root - INFO - Finished testing.
+2021-05-12 11:18:28,731 - root - INFO - Starting training...
+2021-05-12 11:19:09,312 - root - INFO -   | Model 01/10 | Gamma: 0.00781250 | Train Time: 37.431s | Val AUC: 85.62 |
+2021-05-12 11:19:47,012 - root - INFO -   | Model 02/10 | Gamma: 0.01562500 | Train Time: 35.136s | Val AUC: 87.60 |
+2021-05-12 11:20:21,384 - root - INFO -   | Model 03/10 | Gamma: 0.03125000 | Train Time: 31.670s | Val AUC: 89.09 |
+2021-05-12 11:20:51,863 - root - INFO -   | Model 04/10 | Gamma: 0.06250000 | Train Time: 27.446s | Val AUC: 90.12 |
+2021-05-12 11:21:14,540 - root - INFO -   | Model 05/10 | Gamma: 0.12500000 | Train Time: 19.583s | Val AUC: 90.10 |
+2021-05-12 11:21:33,062 - root - INFO -   | Model 06/10 | Gamma: 0.25000000 | Train Time: 15.407s | Val AUC: 91.17 |
+2021-05-12 11:21:52,045 - root - INFO -   | Model 07/10 | Gamma: 0.50000000 | Train Time: 15.854s | Val AUC: 91.76 |
+2021-05-12 11:22:11,558 - root - INFO -   | Model 08/10 | Gamma: 1.00000000 | Train Time: 15.660s | Val AUC: 89.44 |
+2021-05-12 11:22:59,540 - root - INFO -   | Model 09/10 | Gamma: 2.00000000 | Train Time: 44.851s | Val AUC: 52.26 |
+2021-05-12 11:23:18,229 - root - INFO -   | Model 10/10 | Gamma: 4.00000000 | Train Time: 15.625s | Val AUC: 50.00 |
+2021-05-12 11:23:18,234 - root - INFO - Best Model: | Gamma: 0.50000000 | AUC: 91.76
+2021-05-12 11:23:18,234 - root - INFO - Training Time: 15.854s
+2021-05-12 11:23:18,234 - root - INFO - Finished training.
+2021-05-12 11:23:18,874 - root - INFO - Starting testing...
+2021-05-12 11:23:24,248 - root - INFO - Test AUC: 92.59%
+2021-05-12 11:23:24,249 - root - INFO - Test Time: 5.301s
+2021-05-12 11:23:24,249 - root - INFO - Finished testing.
+2021-05-12 11:23:25,007 - root - INFO - Starting training...
+2021-05-12 11:24:05,761 - root - INFO -   | Model 01/10 | Gamma: 0.00781250 | Train Time: 37.577s | Val AUC: 84.32 |
+2021-05-12 11:24:44,063 - root - INFO -   | Model 02/10 | Gamma: 0.01562500 | Train Time: 35.678s | Val AUC: 86.34 |
+2021-05-12 11:25:18,516 - root - INFO -   | Model 03/10 | Gamma: 0.03125000 | Train Time: 31.758s | Val AUC: 88.76 |
+2021-05-12 11:25:49,168 - root - INFO -   | Model 04/10 | Gamma: 0.06250000 | Train Time: 27.617s | Val AUC: 90.63 |
+2021-05-12 11:26:11,892 - root - INFO -   | Model 05/10 | Gamma: 0.12500000 | Train Time: 19.624s | Val AUC: 91.18 |
+2021-05-12 11:26:30,331 - root - INFO -   | Model 06/10 | Gamma: 0.25000000 | Train Time: 15.312s | Val AUC: 91.93 |
+2021-05-12 11:26:48,986 - root - INFO -   | Model 07/10 | Gamma: 0.50000000 | Train Time: 15.517s | Val AUC: 92.23 |
+2021-05-12 11:27:08,479 - root - INFO -   | Model 08/10 | Gamma: 1.00000000 | Train Time: 15.476s | Val AUC: 88.50 |
+2021-05-12 11:27:49,958 - root - INFO -   | Model 09/10 | Gamma: 2.00000000 | Train Time: 38.330s | Val AUC: 57.71 |
+2021-05-12 11:28:08,750 - root - INFO -   | Model 10/10 | Gamma: 4.00000000 | Train Time: 15.661s | Val AUC: 50.49 |
+2021-05-12 11:28:08,755 - root - INFO - Best Model: | Gamma: 0.50000000 | AUC: 92.23
+2021-05-12 11:28:08,756 - root - INFO - Training Time: 15.517s
+2021-05-12 11:28:08,756 - root - INFO - Finished training.
+2021-05-12 11:28:09,400 - root - INFO - Starting testing...
+2021-05-12 11:28:14,755 - root - INFO - Test AUC: 92.59%
+2021-05-12 11:28:14,756 - root - INFO - Test Time: 5.342s
+2021-05-12 11:28:14,756 - root - INFO - Finished testing.
+2021-05-12 11:28:15,525 - root - INFO - Starting training...
+2021-05-12 11:28:56,400 - root - INFO -   | Model 01/10 | Gamma: 0.00781250 | Train Time: 37.667s | Val AUC: 84.51 |
+2021-05-12 11:29:34,371 - root - INFO -   | Model 02/10 | Gamma: 0.01562500 | Train Time: 35.324s | Val AUC: 86.78 |
+2021-05-12 11:30:08,450 - root - INFO -   | Model 03/10 | Gamma: 0.03125000 | Train Time: 31.418s | Val AUC: 89.01 |
+2021-05-12 11:30:39,297 - root - INFO -   | Model 04/10 | Gamma: 0.06250000 | Train Time: 27.785s | Val AUC: 91.36 |
+2021-05-12 11:31:02,053 - root - INFO -   | Model 05/10 | Gamma: 0.12500000 | Train Time: 19.636s | Val AUC: 91.50 |
+2021-05-12 11:31:20,425 - root - INFO -   | Model 06/10 | Gamma: 0.25000000 | Train Time: 15.255s | Val AUC: 92.49 |
+2021-05-12 11:31:38,999 - root - INFO -   | Model 07/10 | Gamma: 0.50000000 | Train Time: 15.479s | Val AUC: 92.96 |
+2021-05-12 11:31:58,475 - root - INFO -   | Model 08/10 | Gamma: 1.00000000 | Train Time: 15.609s | Val AUC: 90.07 |
+2021-05-12 11:32:39,587 - root - INFO -   | Model 09/10 | Gamma: 2.00000000 | Train Time: 37.947s | Val AUC: 57.23 |
+2021-05-12 11:32:58,415 - root - INFO -   | Model 10/10 | Gamma: 4.00000000 | Train Time: 15.690s | Val AUC: 50.00 |
+2021-05-12 11:32:58,422 - root - INFO - Best Model: | Gamma: 0.50000000 | AUC: 92.96
+2021-05-12 11:32:58,422 - root - INFO - Training Time: 15.479s
+2021-05-12 11:32:58,422 - root - INFO - Finished training.
+2021-05-12 11:32:59,076 - root - INFO - Starting testing...
+2021-05-12 11:33:04,451 - root - INFO - Test AUC: 92.59%
+2021-05-12 11:33:04,451 - root - INFO - Test Time: 5.361s
+2021-05-12 11:33:04,452 - root - INFO - Finished testing.
+2021-05-12 11:33:05,267 - root - INFO - Starting training...
+2021-05-12 11:33:46,347 - root - INFO -   | Model 01/10 | Gamma: 0.00781250 | Train Time: 37.844s | Val AUC: 82.99 |
+2021-05-12 11:34:24,677 - root - INFO -   | Model 02/10 | Gamma: 0.01562500 | Train Time: 35.744s | Val AUC: 85.44 |
+2021-05-12 11:34:58,885 - root - INFO -   | Model 03/10 | Gamma: 0.03125000 | Train Time: 31.594s | Val AUC: 87.69 |
+2021-05-12 11:35:29,902 - root - INFO -   | Model 04/10 | Gamma: 0.06250000 | Train Time: 27.956s | Val AUC: 89.68 |
+2021-05-12 11:35:52,457 - root - INFO -   | Model 05/10 | Gamma: 0.12500000 | Train Time: 19.464s | Val AUC: 90.13 |
+2021-05-12 11:36:10,950 - root - INFO -   | Model 06/10 | Gamma: 0.25000000 | Train Time: 15.358s | Val AUC: 91.54 |
+2021-05-12 11:36:29,405 - root - INFO -   | Model 07/10 | Gamma: 0.50000000 | Train Time: 15.320s | Val AUC: 92.22 |
+2021-05-12 11:36:48,445 - root - INFO -   | Model 08/10 | Gamma: 1.00000000 | Train Time: 15.265s | Val AUC: 87.64 |
+2021-05-12 11:37:37,195 - root - INFO -   | Model 09/10 | Gamma: 2.00000000 | Train Time: 45.543s | Val AUC: 58.64 |
+2021-05-12 11:37:55,851 - root - INFO -   | Model 10/10 | Gamma: 4.00000000 | Train Time: 15.530s | Val AUC: 50.49 |
+2021-05-12 11:37:55,856 - root - INFO - Best Model: | Gamma: 0.50000000 | AUC: 92.22
+2021-05-12 11:37:55,857 - root - INFO - Training Time: 15.320s
+2021-05-12 11:37:55,857 - root - INFO - Finished training.
+2021-05-12 11:37:56,507 - root - INFO - Starting testing...
+2021-05-12 11:38:01,792 - root - INFO - Test AUC: 92.59%
+2021-05-12 11:38:01,793 - root - INFO - Test Time: 5.272s
+2021-05-12 11:38:01,793 - root - INFO - Finished testing.
+2021-05-12 11:38:02,562 - root - INFO - Starting training...
+2021-05-12 11:38:42,745 - root - INFO -   | Model 01/10 | Gamma: 0.00781250 | Train Time: 37.031s | Val AUC: 82.31 |
+2021-05-12 11:39:20,561 - root - INFO -   | Model 02/10 | Gamma: 0.01562500 | Train Time: 35.248s | Val AUC: 85.70 |
+2021-05-12 11:39:54,067 - root - INFO -   | Model 03/10 | Gamma: 0.03125000 | Train Time: 30.914s | Val AUC: 88.99 |
+2021-05-12 11:40:24,417 - root - INFO -   | Model 04/10 | Gamma: 0.06250000 | Train Time: 27.343s | Val AUC: 90.84 |
+2021-05-12 11:40:46,842 - root - INFO -   | Model 05/10 | Gamma: 0.12500000 | Train Time: 19.305s | Val AUC: 91.22 |
+2021-05-12 11:41:05,069 - root - INFO -   | Model 06/10 | Gamma: 0.25000000 | Train Time: 15.124s | Val AUC: 91.89 |
+2021-05-12 11:41:23,308 - root - INFO -   | Model 07/10 | Gamma: 0.50000000 | Train Time: 15.126s | Val AUC: 91.96 |
+2021-05-12 11:41:42,259 - root - INFO -   | Model 08/10 | Gamma: 1.00000000 | Train Time: 15.086s | Val AUC: 88.96 |
+2021-05-12 11:42:27,517 - root - INFO -   | Model 09/10 | Gamma: 2.00000000 | Train Time: 42.146s | Val AUC: 57.55 |
+2021-05-12 11:42:45,716 - root - INFO -   | Model 10/10 | Gamma: 4.00000000 | Train Time: 15.070s | Val AUC: 50.49 |
+2021-05-12 11:42:45,722 - root - INFO - Best Model: | Gamma: 0.50000000 | AUC: 91.96
+2021-05-12 11:42:45,722 - root - INFO - Training Time: 15.126s
+2021-05-12 11:42:45,722 - root - INFO - Finished training.
+2021-05-12 11:42:46,373 - root - INFO - Starting testing...
+2021-05-12 11:42:51,604 - root - INFO - Test AUC: 92.59%
+2021-05-12 11:42:51,605 - root - INFO - Test Time: 5.216s
+2021-05-12 11:42:51,605 - root - INFO - Finished testing.
+2021-05-12 11:42:52,364 - root - INFO - Starting training...
+2021-05-12 11:43:32,325 - root - INFO -   | Model 01/10 | Gamma: 0.00781250 | Train Time: 36.814s | Val AUC: 83.92 |
+2021-05-12 11:44:09,766 - root - INFO -   | Model 02/10 | Gamma: 0.01562500 | Train Time: 34.880s | Val AUC: 85.72 |
+2021-05-12 11:44:43,192 - root - INFO -   | Model 03/10 | Gamma: 0.03125000 | Train Time: 30.787s | Val AUC: 88.30 |
+2021-05-12 11:45:13,195 - root - INFO -   | Model 04/10 | Gamma: 0.06250000 | Train Time: 26.964s | Val AUC: 90.48 |
+2021-05-12 11:45:35,309 - root - INFO -   | Model 05/10 | Gamma: 0.12500000 | Train Time: 18.946s | Val AUC: 90.47 |
+2021-05-12 11:45:53,447 - root - INFO -   | Model 06/10 | Gamma: 0.25000000 | Train Time: 15.098s | Val AUC: 91.04 |
+2021-05-12 11:46:11,505 - root - INFO -   | Model 07/10 | Gamma: 0.50000000 | Train Time: 14.988s | Val AUC: 91.10 |
+2021-05-12 11:46:30,206 - root - INFO -   | Model 08/10 | Gamma: 1.00000000 | Train Time: 14.923s | Val AUC: 88.40 |
+2021-05-12 11:47:14,349 - root - INFO -   | Model 09/10 | Gamma: 2.00000000 | Train Time: 41.048s | Val AUC: 57.28 |
+2021-05-12 11:47:32,960 - root - INFO -   | Model 10/10 | Gamma: 4.00000000 | Train Time: 15.491s | Val AUC: 50.00 |
+2021-05-12 11:47:32,965 - root - INFO - Best Model: | Gamma: 0.50000000 | AUC: 91.10
+2021-05-12 11:47:32,966 - root - INFO - Training Time: 14.988s
+2021-05-12 11:47:32,966 - root - INFO - Finished training.
+2021-05-12 11:47:33,619 - root - INFO - Starting testing...
+2021-05-12 11:47:38,904 - root - INFO - Test AUC: 92.59%
+2021-05-12 11:47:38,904 - root - INFO - Test Time: 5.218s
+2021-05-12 11:47:38,904 - root - INFO - Finished testing.
+2021-05-12 11:47:39,643 - root - INFO - Starting training...
+2021-05-12 11:48:20,679 - root - INFO -   | Model 01/10 | Gamma: 0.00781250 | Train Time: 37.909s | Val AUC: 84.21 |
+2021-05-12 11:48:58,274 - root - INFO -   | Model 02/10 | Gamma: 0.01562500 | Train Time: 34.959s | Val AUC: 86.76 |
+2021-05-12 11:49:31,425 - root - INFO -   | Model 03/10 | Gamma: 0.03125000 | Train Time: 30.512s | Val AUC: 88.85 |
+2021-05-12 11:50:01,276 - root - INFO -   | Model 04/10 | Gamma: 0.06250000 | Train Time: 26.871s | Val AUC: 90.40 |
+2021-05-12 11:50:23,343 - root - INFO -   | Model 05/10 | Gamma: 0.12500000 | Train Time: 18.975s | Val AUC: 90.32 |
+2021-05-12 11:50:41,359 - root - INFO -   | Model 06/10 | Gamma: 0.25000000 | Train Time: 14.963s | Val AUC: 91.10 |
+2021-05-12 11:50:59,336 - root - INFO -   | Model 07/10 | Gamma: 0.50000000 | Train Time: 14.919s | Val AUC: 91.55 |
+2021-05-12 11:51:18,224 - root - INFO -   | Model 08/10 | Gamma: 1.00000000 | Train Time: 15.056s | Val AUC: 89.59 |
+2021-05-12 11:52:02,581 - root - INFO -   | Model 09/10 | Gamma: 2.00000000 | Train Time: 41.274s | Val AUC: 54.80 |
+2021-05-12 11:52:20,985 - root - INFO -   | Model 10/10 | Gamma: 4.00000000 | Train Time: 15.351s | Val AUC: 50.00 |
+2021-05-12 11:52:20,990 - root - INFO - Best Model: | Gamma: 0.50000000 | AUC: 91.55
+2021-05-12 11:52:20,991 - root - INFO - Training Time: 14.919s
+2021-05-12 11:52:20,991 - root - INFO - Finished training.
+2021-05-12 11:52:21,636 - root - INFO - Starting testing...
+2021-05-12 11:52:26,889 - root - INFO - Test AUC: 92.59%
+2021-05-12 11:52:26,889 - root - INFO - Test Time: 5.240s
+2021-05-12 11:52:26,889 - root - INFO - Finished testing.
+2021-05-12 11:52:27,653 - root - INFO - Starting training...
+2021-05-12 11:53:07,401 - root - INFO -   | Model 01/10 | Gamma: 0.00781250 | Train Time: 36.570s | Val AUC: 87.98 |
+2021-05-12 11:53:44,501 - root - INFO -   | Model 02/10 | Gamma: 0.01562500 | Train Time: 34.486s | Val AUC: 90.10 |
+2021-05-12 11:54:17,772 - root - INFO -   | Model 03/10 | Gamma: 0.03125000 | Train Time: 30.654s | Val AUC: 91.09 |
+2021-05-12 11:54:47,435 - root - INFO -   | Model 04/10 | Gamma: 0.06250000 | Train Time: 26.691s | Val AUC: 91.58 |
+2021-05-12 11:55:09,431 - root - INFO -   | Model 05/10 | Gamma: 0.12500000 | Train Time: 18.872s | Val AUC: 90.99 |
+2021-05-12 11:55:27,489 - root - INFO -   | Model 06/10 | Gamma: 0.25000000 | Train Time: 14.944s | Val AUC: 91.88 |
+2021-05-12 11:55:45,491 - root - INFO -   | Model 07/10 | Gamma: 0.50000000 | Train Time: 14.940s | Val AUC: 92.31 |
+2021-05-12 11:56:04,164 - root - INFO -   | Model 08/10 | Gamma: 1.00000000 | Train Time: 14.863s | Val AUC: 89.14 |
+2021-05-12 11:56:45,604 - root - INFO -   | Model 09/10 | Gamma: 2.00000000 | Train Time: 38.334s | Val AUC: 55.72 |
+2021-05-12 11:57:04,030 - root - INFO -   | Model 10/10 | Gamma: 4.00000000 | Train Time: 15.356s | Val AUC: 50.00 |
+2021-05-12 11:57:04,036 - root - INFO - Best Model: | Gamma: 0.50000000 | AUC: 92.31
+2021-05-12 11:57:04,036 - root - INFO - Training Time: 14.940s
+2021-05-12 11:57:04,036 - root - INFO - Finished training.
+2021-05-12 11:57:04,691 - root - INFO - Starting testing...
+2021-05-12 11:57:09,998 - root - INFO - Test AUC: 92.59%
+2021-05-12 11:57:09,998 - root - INFO - Test Time: 5.294s
+2021-05-12 11:57:09,998 - root - INFO - Finished testing.
+2021-05-12 11:57:10,765 - root - INFO - Starting training...
+2021-05-12 11:57:50,367 - root - INFO -   | Model 01/10 | Gamma: 0.00781250 | Train Time: 36.445s | Val AUC: 84.59 |
+2021-05-12 11:58:27,591 - root - INFO -   | Model 02/10 | Gamma: 0.01562500 | Train Time: 34.639s | Val AUC: 86.70 |
+2021-05-12 11:59:00,657 - root - INFO -   | Model 03/10 | Gamma: 0.03125000 | Train Time: 30.430s | Val AUC: 88.50 |
+2021-05-12 11:59:30,394 - root - INFO -   | Model 04/10 | Gamma: 0.06250000 | Train Time: 26.701s | Val AUC: 89.74 |
+2021-05-12 11:59:52,204 - root - INFO -   | Model 05/10 | Gamma: 0.12500000 | Train Time: 18.722s | Val AUC: 89.73 |
+2021-05-12 12:00:10,130 - root - INFO -   | Model 06/10 | Gamma: 0.25000000 | Train Time: 14.879s | Val AUC: 90.61 |
+2021-05-12 12:00:27,987 - root - INFO -   | Model 07/10 | Gamma: 0.50000000 | Train Time: 14.770s | Val AUC: 90.99 |
+2021-05-12 12:00:46,629 - root - INFO -   | Model 08/10 | Gamma: 1.00000000 | Train Time: 14.894s | Val AUC: 88.23 |
+2021-05-12 12:01:31,481 - root - INFO -   | Model 09/10 | Gamma: 2.00000000 | Train Time: 41.795s | Val AUC: 56.73 |
+2021-05-12 12:01:49,879 - root - INFO -   | Model 10/10 | Gamma: 4.00000000 | Train Time: 15.253s | Val AUC: 50.49 |
+2021-05-12 12:01:49,885 - root - INFO - Best Model: | Gamma: 0.50000000 | AUC: 90.99
+2021-05-12 12:01:49,885 - root - INFO - Training Time: 14.770s
+2021-05-12 12:01:49,885 - root - INFO - Finished training.
+2021-05-12 12:01:50,556 - root - INFO - Starting testing...
+2021-05-12 12:01:55,851 - root - INFO - Test AUC: 92.59%
+2021-05-12 12:01:55,851 - root - INFO - Test Time: 5.229s
+2021-05-12 12:01:55,852 - root - INFO - Finished testing.
+2021-05-12 12:01:56,598 - root - INFO - Starting training...
+2021-05-12 12:02:36,566 - root - INFO -   | Model 01/10 | Gamma: 0.00781250 | Train Time: 36.791s | Val AUC: 82.98 |
+2021-05-12 12:03:13,933 - root - INFO -   | Model 02/10 | Gamma: 0.01562500 | Train Time: 34.818s | Val AUC: 85.36 |
+2021-05-12 12:03:47,067 - root - INFO -   | Model 03/10 | Gamma: 0.03125000 | Train Time: 30.529s | Val AUC: 87.47 |
+2021-05-12 12:04:16,709 - root - INFO -   | Model 04/10 | Gamma: 0.06250000 | Train Time: 26.652s | Val AUC: 90.32 |
+2021-05-12 12:04:38,502 - root - INFO -   | Model 05/10 | Gamma: 0.12500000 | Train Time: 18.749s | Val AUC: 91.32 |
+2021-05-12 12:04:56,498 - root - INFO -   | Model 06/10 | Gamma: 0.25000000 | Train Time: 14.880s | Val AUC: 92.28 |
+2021-05-12 12:05:14,470 - root - INFO -   | Model 07/10 | Gamma: 0.50000000 | Train Time: 14.882s | Val AUC: 92.62 |
+2021-05-12 12:05:32,928 - root - INFO -   | Model 08/10 | Gamma: 1.00000000 | Train Time: 14.693s | Val AUC: 89.28 |
+2021-05-12 12:06:11,286 - root - INFO -   | Model 09/10 | Gamma: 2.00000000 | Train Time: 35.270s | Val AUC: 57.23 |
+2021-05-12 12:06:29,505 - root - INFO -   | Model 10/10 | Gamma: 4.00000000 | Train Time: 15.162s | Val AUC: 50.00 |
+2021-05-12 12:06:29,510 - root - INFO - Best Model: | Gamma: 0.50000000 | AUC: 92.62
+2021-05-12 12:06:29,511 - root - INFO - Training Time: 14.882s
+2021-05-12 12:06:29,511 - root - INFO - Finished training.
+2021-05-12 12:06:30,170 - root - INFO - Starting testing...
+2021-05-12 12:06:35,401 - root - INFO - Test AUC: 92.59%
+2021-05-12 12:06:35,402 - root - INFO - Test Time: 5.219s
+2021-05-12 12:06:35,402 - root - INFO - Finished testing.
+2021-05-12 12:06:36,175 - root - INFO - Starting training...
+2021-05-12 12:07:16,103 - root - INFO -   | Model 01/10 | Gamma: 0.00781250 | Train Time: 36.767s | Val AUC: 82.79 |
+2021-05-12 12:07:53,154 - root - INFO -   | Model 02/10 | Gamma: 0.01562500 | Train Time: 34.415s | Val AUC: 85.02 |
+2021-05-12 12:08:26,415 - root - INFO -   | Model 03/10 | Gamma: 0.03125000 | Train Time: 30.620s | Val AUC: 87.11 |
+2021-05-12 12:08:56,149 - root - INFO -   | Model 04/10 | Gamma: 0.06250000 | Train Time: 26.788s | Val AUC: 88.06 |
+2021-05-12 12:09:18,016 - root - INFO -   | Model 05/10 | Gamma: 0.12500000 | Train Time: 18.710s | Val AUC: 87.87 |
+2021-05-12 12:09:35,724 - root - INFO -   | Model 06/10 | Gamma: 0.25000000 | Train Time: 14.685s | Val AUC: 89.05 |
+2021-05-12 12:09:53,498 - root - INFO -   | Model 07/10 | Gamma: 0.50000000 | Train Time: 14.737s | Val AUC: 90.00 |
+2021-05-12 12:10:12,266 - root - INFO -   | Model 08/10 | Gamma: 1.00000000 | Train Time: 14.969s | Val AUC: 86.19 |
+2021-05-12 12:10:54,268 - root - INFO -   | Model 09/10 | Gamma: 2.00000000 | Train Time: 38.865s | Val AUC: 55.23 |
+2021-05-12 12:11:12,532 - root - INFO -   | Model 10/10 | Gamma: 4.00000000 | Train Time: 15.215s | Val AUC: 50.00 |
+2021-05-12 12:11:12,537 - root - INFO - Best Model: | Gamma: 0.50000000 | AUC: 90.00
+2021-05-12 12:11:12,538 - root - INFO - Training Time: 14.737s
+2021-05-12 12:11:12,538 - root - INFO - Finished training.
+2021-05-12 12:11:13,260 - root - INFO - Starting testing...
+2021-05-12 12:11:18,545 - root - INFO - Test AUC: 92.59%
+2021-05-12 12:11:18,545 - root - INFO - Test Time: 5.271s
+2021-05-12 12:11:18,545 - root - INFO - Finished testing.
+2021-05-12 12:11:19,351 - root - INFO - Starting training...
+2021-05-12 12:11:59,409 - root - INFO -   | Model 01/10 | Gamma: 0.00781250 | Train Time: 36.921s | Val AUC: 85.21 |
+2021-05-12 12:12:36,758 - root - INFO -   | Model 02/10 | Gamma: 0.01562500 | Train Time: 34.777s | Val AUC: 87.28 |
+2021-05-12 12:13:09,738 - root - INFO -   | Model 03/10 | Gamma: 0.03125000 | Train Time: 30.373s | Val AUC: 89.86 |
+2021-05-12 12:13:39,179 - root - INFO -   | Model 04/10 | Gamma: 0.06250000 | Train Time: 26.474s | Val AUC: 91.78 |
+2021-05-12 12:14:01,251 - root - INFO -   | Model 05/10 | Gamma: 0.12500000 | Train Time: 19.042s | Val AUC: 92.17 |
+2021-05-12 12:14:19,057 - root - INFO -   | Model 06/10 | Gamma: 0.25000000 | Train Time: 14.774s | Val AUC: 93.02 |
+2021-05-12 12:14:36,833 - root - INFO -   | Model 07/10 | Gamma: 0.50000000 | Train Time: 14.693s | Val AUC: 93.38 |
+2021-05-12 12:14:55,289 - root - INFO -   | Model 08/10 | Gamma: 1.00000000 | Train Time: 14.720s | Val AUC: 91.00 |
+2021-05-12 12:15:44,238 - root - INFO -   | Model 09/10 | Gamma: 2.00000000 | Train Time: 45.898s | Val AUC: 57.17 |
+2021-05-12 12:16:02,415 - root - INFO -   | Model 10/10 | Gamma: 4.00000000 | Train Time: 15.085s | Val AUC: 50.00 |
+2021-05-12 12:16:02,420 - root - INFO - Best Model: | Gamma: 0.50000000 | AUC: 93.38
+2021-05-12 12:16:02,421 - root - INFO - Training Time: 14.693s
+2021-05-12 12:16:02,421 - root - INFO - Finished training.
+2021-05-12 12:16:03,077 - root - INFO - Starting testing...
+2021-05-12 12:16:08,414 - root - INFO - Test AUC: 92.59%
+2021-05-12 12:16:08,415 - root - INFO - Test Time: 5.325s
+2021-05-12 12:16:08,415 - root - INFO - Finished testing.
+2021-05-12 12:16:09,207 - root - INFO - Starting training...
+2021-05-12 12:16:48,860 - root - INFO -   | Model 01/10 | Gamma: 0.00781250 | Train Time: 36.504s | Val AUC: 85.09 |
+2021-05-12 12:17:26,933 - root - INFO -   | Model 02/10 | Gamma: 0.01562500 | Train Time: 35.339s | Val AUC: 87.02 |
+2021-05-12 12:18:00,290 - root - INFO -   | Model 03/10 | Gamma: 0.03125000 | Train Time: 30.748s | Val AUC: 89.42 |
+2021-05-12 12:18:30,467 - root - INFO -   | Model 04/10 | Gamma: 0.06250000 | Train Time: 27.130s | Val AUC: 91.12 |
+2021-05-12 12:18:52,568 - root - INFO -   | Model 05/10 | Gamma: 0.12500000 | Train Time: 19.037s | Val AUC: 91.23 |
+2021-05-12 12:19:11,173 - root - INFO -   | Model 06/10 | Gamma: 0.25000000 | Train Time: 15.540s | Val AUC: 92.05 |
+2021-05-12 12:19:30,062 - root - INFO -   | Model 07/10 | Gamma: 0.50000000 | Train Time: 15.773s | Val AUC: 92.55 |
+2021-05-12 12:19:49,461 - root - INFO -   | Model 08/10 | Gamma: 1.00000000 | Train Time: 15.526s | Val AUC: 89.68 |
+2021-05-12 12:20:33,856 - root - INFO -   | Model 09/10 | Gamma: 2.00000000 | Train Time: 41.210s | Val AUC: 57.72 |
+2021-05-12 12:20:52,279 - root - INFO -   | Model 10/10 | Gamma: 4.00000000 | Train Time: 15.368s | Val AUC: 50.00 |
+2021-05-12 12:20:52,284 - root - INFO - Best Model: | Gamma: 0.50000000 | AUC: 92.55
+2021-05-12 12:20:52,284 - root - INFO - Training Time: 15.773s
+2021-05-12 12:20:52,284 - root - INFO - Finished training.
+2021-05-12 12:20:52,939 - root - INFO - Starting testing...
+2021-05-12 12:20:58,205 - root - INFO - Test AUC: 92.59%
+2021-05-12 12:20:58,206 - root - INFO - Test Time: 5.253s
+2021-05-12 12:20:58,206 - root - INFO - Finished testing.
+2021-05-12 12:20:58,959 - root - INFO - Starting training...
+2021-05-12 12:21:39,288 - root - INFO -   | Model 01/10 | Gamma: 0.00781250 | Train Time: 37.141s | Val AUC: 82.43 |
+2021-05-12 12:22:16,930 - root - INFO -   | Model 02/10 | Gamma: 0.01562500 | Train Time: 35.048s | Val AUC: 84.36 |
+2021-05-12 12:22:50,370 - root - INFO -   | Model 03/10 | Gamma: 0.03125000 | Train Time: 30.793s | Val AUC: 87.22 |
+2021-05-12 12:23:20,788 - root - INFO -   | Model 04/10 | Gamma: 0.06250000 | Train Time: 27.422s | Val AUC: 88.95 |
+2021-05-12 12:23:42,852 - root - INFO -   | Model 05/10 | Gamma: 0.12500000 | Train Time: 18.981s | Val AUC: 88.72 |
+2021-05-12 12:24:01,214 - root - INFO -   | Model 06/10 | Gamma: 0.25000000 | Train Time: 15.279s | Val AUC: 89.80 |
+2021-05-12 12:24:19,409 - root - INFO -   | Model 07/10 | Gamma: 0.50000000 | Train Time: 15.116s | Val AUC: 90.41 |
+2021-05-12 12:24:38,307 - root - INFO -   | Model 08/10 | Gamma: 1.00000000 | Train Time: 15.073s | Val AUC: 87.08 |
+2021-05-12 12:25:25,486 - root - INFO -   | Model 09/10 | Gamma: 2.00000000 | Train Time: 44.054s | Val AUC: 57.23 |
+2021-05-12 12:25:43,911 - root - INFO -   | Model 10/10 | Gamma: 4.00000000 | Train Time: 15.306s | Val AUC: 50.00 |
+2021-05-12 12:25:43,916 - root - INFO - Best Model: | Gamma: 0.50000000 | AUC: 90.41
+2021-05-12 12:25:43,916 - root - INFO - Training Time: 15.116s
+2021-05-12 12:25:43,916 - root - INFO - Finished training.
+2021-05-12 12:25:44,561 - root - INFO - Starting testing...
+2021-05-12 12:25:49,873 - root - INFO - Test AUC: 92.59%
+2021-05-12 12:25:49,873 - root - INFO - Test Time: 5.244s
+2021-05-12 12:25:49,873 - root - INFO - Finished testing.
+2021-05-12 12:25:50,633 - root - INFO - Starting training...
+2021-05-12 12:26:30,543 - root - INFO -   | Model 01/10 | Gamma: 0.00781250 | Train Time: 36.742s | Val AUC: 80.59 |
+2021-05-12 12:27:07,940 - root - INFO -   | Model 02/10 | Gamma: 0.01562500 | Train Time: 34.825s | Val AUC: 82.97 |
+2021-05-12 12:27:41,743 - root - INFO -   | Model 03/10 | Gamma: 0.03125000 | Train Time: 31.137s | Val AUC: 85.19 |
+2021-05-12 12:28:11,691 - root - INFO -   | Model 04/10 | Gamma: 0.06250000 | Train Time: 26.917s | Val AUC: 87.55 |
+2021-05-12 12:28:33,632 - root - INFO -   | Model 05/10 | Gamma: 0.12500000 | Train Time: 18.803s | Val AUC: 88.80 |
+2021-05-12 12:28:51,725 - root - INFO -   | Model 06/10 | Gamma: 0.25000000 | Train Time: 15.032s | Val AUC: 90.79 |
+2021-05-12 12:29:09,604 - root - INFO -   | Model 07/10 | Gamma: 0.50000000 | Train Time: 14.818s | Val AUC: 91.49 |
+2021-05-12 12:29:28,447 - root - INFO -   | Model 08/10 | Gamma: 1.00000000 | Train Time: 14.927s | Val AUC: 88.99 |
+2021-05-12 12:30:14,428 - root - INFO -   | Model 09/10 | Gamma: 2.00000000 | Train Time: 42.864s | Val AUC: 56.63 |
+2021-05-12 12:30:32,652 - root - INFO -   | Model 10/10 | Gamma: 4.00000000 | Train Time: 15.155s | Val AUC: 50.00 |
+2021-05-12 12:30:32,657 - root - INFO - Best Model: | Gamma: 0.50000000 | AUC: 91.49
+2021-05-12 12:30:32,658 - root - INFO - Training Time: 14.818s
+2021-05-12 12:30:32,658 - root - INFO - Finished training.
+2021-05-12 12:30:33,325 - root - INFO - Starting testing...
+2021-05-12 12:30:38,540 - root - INFO - Test AUC: 92.59%
+2021-05-12 12:30:38,541 - root - INFO - Test Time: 5.203s
+2021-05-12 12:30:38,541 - root - INFO - Finished testing.
+2021-05-12 12:30:39,325 - root - INFO - Starting training...
+2021-05-12 12:31:19,153 - root - INFO -   | Model 01/10 | Gamma: 0.00781250 | Train Time: 36.723s | Val AUC: 80.01 |
+2021-05-12 12:31:56,536 - root - INFO -   | Model 02/10 | Gamma: 0.01562500 | Train Time: 34.832s | Val AUC: 83.17 |
+2021-05-12 12:32:30,659 - root - INFO -   | Model 03/10 | Gamma: 0.03125000 | Train Time: 31.484s | Val AUC: 85.78 |
+2021-05-12 12:33:00,880 - root - INFO -   | Model 04/10 | Gamma: 0.06250000 | Train Time: 27.207s | Val AUC: 88.26 |
+2021-05-12 12:33:23,254 - root - INFO -   | Model 05/10 | Gamma: 0.12500000 | Train Time: 19.273s | Val AUC: 89.39 |
+2021-05-12 12:33:41,522 - root - INFO -   | Model 06/10 | Gamma: 0.25000000 | Train Time: 15.172s | Val AUC: 91.15 |
+2021-05-12 12:33:59,826 - root - INFO -   | Model 07/10 | Gamma: 0.50000000 | Train Time: 15.080s | Val AUC: 91.85 |
+2021-05-12 12:34:18,877 - root - INFO -   | Model 08/10 | Gamma: 1.00000000 | Train Time: 15.190s | Val AUC: 87.58 |
+2021-05-12 12:35:03,020 - root - INFO -   | Model 09/10 | Gamma: 2.00000000 | Train Time: 41.043s | Val AUC: 57.72 |
+2021-05-12 12:35:21,672 - root - INFO -   | Model 10/10 | Gamma: 4.00000000 | Train Time: 15.540s | Val AUC: 50.00 |
+2021-05-12 12:35:21,677 - root - INFO - Best Model: | Gamma: 0.50000000 | AUC: 91.85
+2021-05-12 12:35:21,678 - root - INFO - Training Time: 15.080s
+2021-05-12 12:35:21,678 - root - INFO - Finished training.
+2021-05-12 12:35:22,335 - root - INFO - Starting testing...
+2021-05-12 12:35:27,653 - root - INFO - Test AUC: 92.59%
+2021-05-12 12:35:27,654 - root - INFO - Test Time: 5.304s
+2021-05-12 12:35:27,654 - root - INFO - Finished testing.
+2021-05-12 12:35:28,497 - root - INFO - Starting training...
+2021-05-12 12:36:08,801 - root - INFO -   | Model 01/10 | Gamma: 0.00781250 | Train Time: 37.157s | Val AUC: 86.40 |
+2021-05-12 12:36:46,734 - root - INFO -   | Model 02/10 | Gamma: 0.01562500 | Train Time: 35.300s | Val AUC: 88.57 |
+2021-05-12 12:37:20,750 - root - INFO -   | Model 03/10 | Gamma: 0.03125000 | Train Time: 31.336s | Val AUC: 91.08 |
+2021-05-12 12:37:51,272 - root - INFO -   | Model 04/10 | Gamma: 0.06250000 | Train Time: 27.489s | Val AUC: 92.43 |
+2021-05-12 12:38:13,720 - root - INFO -   | Model 05/10 | Gamma: 0.12500000 | Train Time: 19.329s | Val AUC: 92.51 |
+2021-05-12 12:38:31,887 - root - INFO -   | Model 06/10 | Gamma: 0.25000000 | Train Time: 15.082s | Val AUC: 93.15 |
+2021-05-12 12:38:50,125 - root - INFO -   | Model 07/10 | Gamma: 0.50000000 | Train Time: 15.099s | Val AUC: 93.40 |
+2021-05-12 12:39:09,312 - root - INFO -   | Model 08/10 | Gamma: 1.00000000 | Train Time: 15.331s | Val AUC: 90.94 |
+2021-05-12 12:39:53,454 - root - INFO -   | Model 09/10 | Gamma: 2.00000000 | Train Time: 40.983s | Val AUC: 58.68 |
+2021-05-12 12:40:12,159 - root - INFO -   | Model 10/10 | Gamma: 4.00000000 | Train Time: 15.556s | Val AUC: 50.00 |
+2021-05-12 12:40:12,164 - root - INFO - Best Model: | Gamma: 0.50000000 | AUC: 93.40
+2021-05-12 12:40:12,165 - root - INFO - Training Time: 15.099s
+2021-05-12 12:40:12,165 - root - INFO - Finished training.
+2021-05-12 12:40:12,853 - root - INFO - Starting testing...
+2021-05-12 12:40:18,284 - root - INFO - Test AUC: 92.59%
+2021-05-12 12:40:18,284 - root - INFO - Test Time: 5.418s
+2021-05-12 12:40:18,285 - root - INFO - Finished testing.
+2021-05-12 12:40:19,079 - root - INFO - Starting training...
+2021-05-12 12:41:00,114 - root - INFO -   | Model 01/10 | Gamma: 0.00781250 | Train Time: 37.815s | Val AUC: 81.63 |
+2021-05-12 12:41:38,399 - root - INFO -   | Model 02/10 | Gamma: 0.01562500 | Train Time: 35.692s | Val AUC: 85.02 |
+2021-05-12 12:42:12,601 - root - INFO -   | Model 03/10 | Gamma: 0.03125000 | Train Time: 31.514s | Val AUC: 88.18 |
+2021-05-12 12:42:42,989 - root - INFO -   | Model 04/10 | Gamma: 0.06250000 | Train Time: 27.363s | Val AUC: 91.46 |
+2021-05-12 12:43:05,664 - root - INFO -   | Model 05/10 | Gamma: 0.12500000 | Train Time: 19.580s | Val AUC: 92.60 |
+2021-05-12 12:43:24,052 - root - INFO -   | Model 06/10 | Gamma: 0.25000000 | Train Time: 15.279s | Val AUC: 93.72 |
+2021-05-12 12:43:42,485 - root - INFO -   | Model 07/10 | Gamma: 0.50000000 | Train Time: 15.308s | Val AUC: 94.15 |
+2021-05-12 12:44:01,518 - root - INFO -   | Model 08/10 | Gamma: 1.00000000 | Train Time: 15.208s | Val AUC: 89.68 |
+2021-05-12 12:44:44,650 - root - INFO -   | Model 09/10 | Gamma: 2.00000000 | Train Time: 39.923s | Val AUC: 59.71 |
+2021-05-12 12:45:03,053 - root - INFO -   | Model 10/10 | Gamma: 4.00000000 | Train Time: 15.290s | Val AUC: 50.00 |
+2021-05-12 12:45:03,058 - root - INFO - Best Model: | Gamma: 0.50000000 | AUC: 94.15
+2021-05-12 12:45:03,058 - root - INFO - Training Time: 15.308s
+2021-05-12 12:45:03,059 - root - INFO - Finished training.
+2021-05-12 12:45:03,708 - root - INFO - Starting testing...
+2021-05-12 12:45:08,980 - root - INFO - Test AUC: 92.59%
+2021-05-12 12:45:08,981 - root - INFO - Test Time: 5.259s
+2021-05-12 12:45:08,981 - root - INFO - Finished testing.
+2021-05-12 12:45:09,782 - root - INFO - Starting training...
+2021-05-12 12:45:50,480 - root - INFO -   | Model 01/10 | Gamma: 0.00781250 | Train Time: 37.460s | Val AUC: 85.82 |
+2021-05-12 12:46:28,074 - root - INFO -   | Model 02/10 | Gamma: 0.01562500 | Train Time: 35.018s | Val AUC: 87.76 |
+2021-05-12 12:47:02,227 - root - INFO -   | Model 03/10 | Gamma: 0.03125000 | Train Time: 31.479s | Val AUC: 89.93 |
+2021-05-12 12:47:32,576 - root - INFO -   | Model 04/10 | Gamma: 0.06250000 | Train Time: 27.308s | Val AUC: 91.85 |
+2021-05-12 12:47:54,901 - root - INFO -   | Model 05/10 | Gamma: 0.12500000 | Train Time: 19.161s | Val AUC: 92.08 |
+2021-05-12 12:48:13,328 - root - INFO -   | Model 06/10 | Gamma: 0.25000000 | Train Time: 15.308s | Val AUC: 92.42 |
+2021-05-12 12:48:31,581 - root - INFO -   | Model 07/10 | Gamma: 0.50000000 | Train Time: 15.162s | Val AUC: 92.51 |
+2021-05-12 12:48:50,458 - root - INFO -   | Model 08/10 | Gamma: 1.00000000 | Train Time: 15.026s | Val AUC: 89.54 |
+2021-05-12 12:49:34,062 - root - INFO -   | Model 09/10 | Gamma: 2.00000000 | Train Time: 40.500s | Val AUC: 58.20 |
+2021-05-12 12:49:52,616 - root - INFO -   | Model 10/10 | Gamma: 4.00000000 | Train Time: 15.462s | Val AUC: 50.00 |
+2021-05-12 12:49:52,621 - root - INFO - Best Model: | Gamma: 0.50000000 | AUC: 92.51
+2021-05-12 12:49:52,622 - root - INFO - Training Time: 15.162s
+2021-05-12 12:49:52,622 - root - INFO - Finished training.
+2021-05-12 12:49:53,297 - root - INFO - Starting testing...
+2021-05-12 12:49:58,594 - root - INFO - Test AUC: 92.59%
+2021-05-12 12:49:58,595 - root - INFO - Test Time: 5.282s
+2021-05-12 12:49:58,595 - root - INFO - Finished testing.
+2021-05-12 12:49:59,421 - root - INFO - Starting training...
+2021-05-12 12:50:39,887 - root - INFO -   | Model 01/10 | Gamma: 0.00781250 | Train Time: 37.280s | Val AUC: 83.13 |
+2021-05-12 12:51:17,876 - root - INFO -   | Model 02/10 | Gamma: 0.01562500 | Train Time: 35.355s | Val AUC: 85.36 |
+2021-05-12 12:51:51,812 - root - INFO -   | Model 03/10 | Gamma: 0.03125000 | Train Time: 31.227s | Val AUC: 87.69 |
+2021-05-12 12:52:22,098 - root - INFO -   | Model 04/10 | Gamma: 0.06250000 | Train Time: 27.236s | Val AUC: 90.19 |
+2021-05-12 12:52:44,429 - root - INFO -   | Model 05/10 | Gamma: 0.12500000 | Train Time: 19.184s | Val AUC: 90.21 |
+2021-05-12 12:53:02,795 - root - INFO -   | Model 06/10 | Gamma: 0.25000000 | Train Time: 15.275s | Val AUC: 90.84 |
+2021-05-12 12:53:21,068 - root - INFO -   | Model 07/10 | Gamma: 0.50000000 | Train Time: 15.145s | Val AUC: 91.05 |
+2021-05-12 12:53:40,395 - root - INFO -   | Model 08/10 | Gamma: 1.00000000 | Train Time: 15.492s | Val AUC: 87.95 |
+2021-05-12 12:54:27,658 - root - INFO -   | Model 09/10 | Gamma: 2.00000000 | Train Time: 44.077s | Val AUC: 56.80 |
+2021-05-12 12:54:46,256 - root - INFO -   | Model 10/10 | Gamma: 4.00000000 | Train Time: 15.501s | Val AUC: 50.00 |
+2021-05-12 12:54:46,262 - root - INFO - Best Model: | Gamma: 0.50000000 | AUC: 91.05
+2021-05-12 12:54:46,262 - root - INFO - Training Time: 15.145s
+2021-05-12 12:54:46,262 - root - INFO - Finished training.
+2021-05-12 12:54:46,917 - root - INFO - Starting testing...
+2021-05-12 12:54:52,270 - root - INFO - Test AUC: 92.59%
+2021-05-12 12:54:52,270 - root - INFO - Test Time: 5.339s
+2021-05-12 12:54:52,270 - root - INFO - Finished testing.
+2021-05-12 12:54:53,035 - root - INFO - Starting training...
+2021-05-12 12:55:33,719 - root - INFO -   | Model 01/10 | Gamma: 0.00781250 | Train Time: 37.469s | Val AUC: 83.70 |
+2021-05-12 12:56:11,678 - root - INFO -   | Model 02/10 | Gamma: 0.01562500 | Train Time: 35.357s | Val AUC: 86.20 |
+2021-05-12 12:56:45,694 - root - INFO -   | Model 03/10 | Gamma: 0.03125000 | Train Time: 31.227s | Val AUC: 88.50 |
+2021-05-12 12:57:16,181 - root - INFO -   | Model 04/10 | Gamma: 0.06250000 | Train Time: 27.450s | Val AUC: 90.81 |
+2021-05-12 12:57:38,704 - root - INFO -   | Model 05/10 | Gamma: 0.12500000 | Train Time: 19.436s | Val AUC: 91.13 |
+2021-05-12 12:57:57,211 - root - INFO -   | Model 06/10 | Gamma: 0.25000000 | Train Time: 15.400s | Val AUC: 92.09 |
+2021-05-12 12:58:15,495 - root - INFO -   | Model 07/10 | Gamma: 0.50000000 | Train Time: 15.175s | Val AUC: 92.67 |
+2021-05-12 12:58:34,904 - root - INFO -   | Model 08/10 | Gamma: 1.00000000 | Train Time: 15.584s | Val AUC: 90.70 |
+2021-05-12 12:59:19,455 - root - INFO -   | Model 09/10 | Gamma: 2.00000000 | Train Time: 41.416s | Val AUC: 55.34 |
+2021-05-12 12:59:38,251 - root - INFO -   | Model 10/10 | Gamma: 4.00000000 | Train Time: 15.690s | Val AUC: 50.00 |
+2021-05-12 12:59:38,256 - root - INFO - Best Model: | Gamma: 0.50000000 | AUC: 92.67
+2021-05-12 12:59:38,257 - root - INFO - Training Time: 15.175s
+2021-05-12 12:59:38,257 - root - INFO - Finished training.
+2021-05-12 12:59:38,908 - root - INFO - Starting testing...
+2021-05-12 12:59:44,202 - root - INFO - Test AUC: 92.59%
+2021-05-12 12:59:44,202 - root - INFO - Test Time: 5.279s
+2021-05-12 12:59:44,202 - root - INFO - Finished testing.
+2021-05-12 12:59:45,026 - root - INFO - Starting training...
+2021-05-12 13:00:25,449 - root - INFO -   | Model 01/10 | Gamma: 0.00781250 | Train Time: 37.250s | Val AUC: 83.45 |
+2021-05-12 13:01:03,551 - root - INFO -   | Model 02/10 | Gamma: 0.01562500 | Train Time: 35.479s | Val AUC: 84.98 |
+2021-05-12 13:01:37,386 - root - INFO -   | Model 03/10 | Gamma: 0.03125000 | Train Time: 31.195s | Val AUC: 87.15 |
+2021-05-12 13:02:07,786 - root - INFO -   | Model 04/10 | Gamma: 0.06250000 | Train Time: 27.396s | Val AUC: 90.06 |
+2021-05-12 13:02:30,234 - root - INFO -   | Model 05/10 | Gamma: 0.12500000 | Train Time: 19.324s | Val AUC: 90.77 |
+2021-05-12 13:02:48,473 - root - INFO -   | Model 06/10 | Gamma: 0.25000000 | Train Time: 15.132s | Val AUC: 92.02 |
+2021-05-12 13:03:06,755 - root - INFO -   | Model 07/10 | Gamma: 0.50000000 | Train Time: 15.150s | Val AUC: 92.56 |
+2021-05-12 13:03:25,835 - root - INFO -   | Model 08/10 | Gamma: 1.00000000 | Train Time: 15.231s | Val AUC: 88.91 |
+2021-05-12 13:04:13,452 - root - INFO -   | Model 09/10 | Gamma: 2.00000000 | Train Time: 44.471s | Val AUC: 56.21 |
+2021-05-12 13:04:32,059 - root - INFO -   | Model 10/10 | Gamma: 4.00000000 | Train Time: 15.505s | Val AUC: 50.00 |
+2021-05-12 13:04:32,064 - root - INFO - Best Model: | Gamma: 0.50000000 | AUC: 92.56
+2021-05-12 13:04:32,064 - root - INFO - Training Time: 15.150s
+2021-05-12 13:04:32,064 - root - INFO - Finished training.
+2021-05-12 13:04:32,716 - root - INFO - Starting testing...
+2021-05-12 13:04:38,080 - root - INFO - Test AUC: 92.59%
+2021-05-12 13:04:38,080 - root - INFO - Test Time: 5.351s
+2021-05-12 13:04:38,080 - root - INFO - Finished testing.
+2021-05-12 13:04:38,874 - root - INFO - Starting training...
+2021-05-12 13:05:19,193 - root - INFO -   | Model 01/10 | Gamma: 0.00781250 | Train Time: 37.167s | Val AUC: 82.05 |
+2021-05-12 13:05:57,026 - root - INFO -   | Model 02/10 | Gamma: 0.01562500 | Train Time: 35.240s | Val AUC: 84.72 |
+2021-05-12 13:06:30,975 - root - INFO -   | Model 03/10 | Gamma: 0.03125000 | Train Time: 31.286s | Val AUC: 87.62 |
+2021-05-12 13:07:01,228 - root - INFO -   | Model 04/10 | Gamma: 0.06250000 | Train Time: 27.231s | Val AUC: 90.09 |
+2021-05-12 13:07:23,568 - root - INFO -   | Model 05/10 | Gamma: 0.12500000 | Train Time: 19.238s | Val AUC: 91.08 |
+2021-05-12 13:07:41,918 - root - INFO -   | Model 06/10 | Gamma: 0.25000000 | Train Time: 15.230s | Val AUC: 92.21 |
+2021-05-12 13:08:00,186 - root - INFO -   | Model 07/10 | Gamma: 0.50000000 | Train Time: 15.116s | Val AUC: 92.44 |
+2021-05-12 13:08:19,255 - root - INFO -   | Model 08/10 | Gamma: 1.00000000 | Train Time: 15.251s | Val AUC: 88.57 |
+2021-05-12 13:09:03,616 - root - INFO -   | Model 09/10 | Gamma: 2.00000000 | Train Time: 41.178s | Val AUC: 54.85 |
+2021-05-12 13:09:22,242 - root - INFO -   | Model 10/10 | Gamma: 4.00000000 | Train Time: 15.507s | Val AUC: 50.00 |
+2021-05-12 13:09:22,247 - root - INFO - Best Model: | Gamma: 0.50000000 | AUC: 92.44
+2021-05-12 13:09:22,247 - root - INFO - Training Time: 15.116s
+2021-05-12 13:09:22,247 - root - INFO - Finished training.
+2021-05-12 13:09:22,908 - root - INFO - Starting testing...
+2021-05-12 13:09:28,190 - root - INFO - Test AUC: 92.59%
+2021-05-12 13:09:28,190 - root - INFO - Test Time: 5.269s
+2021-05-12 13:09:28,191 - root - INFO - Finished testing.
+2021-05-12 13:09:28,994 - root - INFO - Starting training...
+2021-05-12 13:10:09,338 - root - INFO -   | Model 01/10 | Gamma: 0.00781250 | Train Time: 37.110s | Val AUC: 79.51 |
+2021-05-12 13:10:47,165 - root - INFO -   | Model 02/10 | Gamma: 0.01562500 | Train Time: 35.194s | Val AUC: 82.84 |
+2021-05-12 13:11:21,277 - root - INFO -   | Model 03/10 | Gamma: 0.03125000 | Train Time: 31.455s | Val AUC: 86.27 |
+2021-05-12 13:11:51,877 - root - INFO -   | Model 04/10 | Gamma: 0.06250000 | Train Time: 27.557s | Val AUC: 89.08 |
+2021-05-12 13:12:14,235 - root - INFO -   | Model 05/10 | Gamma: 0.12500000 | Train Time: 19.246s | Val AUC: 89.85 |
+2021-05-12 13:12:32,453 - root - INFO -   | Model 06/10 | Gamma: 0.25000000 | Train Time: 15.128s | Val AUC: 91.31 |
+2021-05-12 13:12:51,028 - root - INFO -   | Model 07/10 | Gamma: 0.50000000 | Train Time: 15.397s | Val AUC: 92.05 |
+2021-05-12 13:13:10,115 - root - INFO -   | Model 08/10 | Gamma: 1.00000000 | Train Time: 15.228s | Val AUC: 88.78 |
+2021-05-12 13:13:54,197 - root - INFO -   | Model 09/10 | Gamma: 2.00000000 | Train Time: 40.846s | Val AUC: 57.77 |
+2021-05-12 13:14:13,251 - root - INFO -   | Model 10/10 | Gamma: 4.00000000 | Train Time: 15.785s | Val AUC: 50.97 |
+2021-05-12 13:14:13,256 - root - INFO - Best Model: | Gamma: 0.50000000 | AUC: 92.05
+2021-05-12 13:14:13,256 - root - INFO - Training Time: 15.397s
+2021-05-12 13:14:13,256 - root - INFO - Finished training.
+2021-05-12 13:14:13,957 - root - INFO - Starting testing...
+2021-05-12 13:14:19,409 - root - INFO - Test AUC: 92.59%
+2021-05-12 13:14:19,409 - root - INFO - Test Time: 5.378s
+2021-05-12 13:14:19,409 - root - INFO - Finished testing.
